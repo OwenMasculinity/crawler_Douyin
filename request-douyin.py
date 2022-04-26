@@ -8,7 +8,7 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 
 def distinct_data():
     ##读取txt中文档的url列表
     datalist_blank=[]
-    pathtxt='G:/清华大学/轮转项目/视频指纹/爬取抖音视频/Douyin_Request.txt'
+    pathtxt='your_path'
     with open(pathtxt) as f:
         f_data_list=f.readlines()#d得到的是一个list类型
         for a in f_data_list:
